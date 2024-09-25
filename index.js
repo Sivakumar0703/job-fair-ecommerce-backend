@@ -1,7 +1,7 @@
 import express from "express"
 import "dotenv/config"
 import cors from "cors"
-import connectDb from "./database/dbConfig.js"
+import connectDb from "./database/DbConfig.js"
 import productRouter from "./Routers/product.router.js"
 
 
